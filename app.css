@@ -1,0 +1,150 @@
+body {
+  background-image: url(/Christmas\ photo.jpg);
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-weight: normal;
+  text-align: center;
+  margin-right:20px;
+  font-size: 80px;
+  margin-bottom: 100px;
+}
+
+.container {
+  display: flex;
+  transform: scale(2);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+#time h2 {
+  font-weight: 800;
+  font-size: 32px;
+  margin: 10px;
+}
+#time small {
+  font-size:23px;
+}
+@media (max-width: 1560px) {
+  body {
+    background-image: url(/Christmas\ photo.jpg);
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+  h1 {
+    font-size: 65px;
+  }
+  #time {
+    margin: 5px;
+  }
+  #time h2 {
+    font-size: 28px;
+  }
+  #time small {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1160px) {
+  body {
+    background-image: url(/Christmas\ photo.jpg);
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  #time {
+    margin: 5px;
+  }
+  #time h2 {
+    font-size: 28px;
+  }
+  #time small {
+    font-size: 17px;
+  }
+}
+@media (max-width: 685px) {
+  body {
+    background-image: url(/Christmas\ photo.jpg);
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  #time {
+    margin: 5px;
+  }
+  #time h2 {
+    font-size: 18px;
+  }
+  #time small {
+    font-size: 10px;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    background-image: url(/Christmas\ photo.jpg);
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  #time {
+    margin: 2px;
+  }
+  #time h2 {
+    font-size: 15px;
+  }
+  #time small {
+    font-size:10px;
+  }
+}
+#karAlani {
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.fa-snowflake-o {
+	color: #ffffff;
+	position: absolute;
+	top: -20px;
+	animation: yagis linear forwards;
+}
+
+@keyframes yagis {
+	to {
+		transform: translateY(150vh);
+	}
+} 
